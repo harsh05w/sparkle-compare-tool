@@ -31,10 +31,10 @@ export const CompareSection = () => {
         >
           <div className="p-4 border rounded-3xl bg-card/50 border-border/50 px-4">
             <Compare
-              firstImage={landingAfter}
-              secondImage={codeBefore}
-              firstImageClassName="object-cover object-center"
-              secondImageClassname="object-cover object-left-top"
+              firstImage={codeBefore}
+              secondImage={landingAfter}
+              firstImageClassName="object-cover object-left-top"
+              secondImageClassname="object-cover object-center"
               className="h-[300px] w-[280px] md:h-[500px] md:w-[500px] lg:h-[550px] lg:w-[650px]"
               slideMode="hover"
             />
